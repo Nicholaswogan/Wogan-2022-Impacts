@@ -26,6 +26,11 @@ planet:
     water-condensation: true
     gas-rainout: true
     rainfall-rate: 1
+    rainout-species: [H2SO4aer, S8aer, HCaer1, HCaer2, HCaer3,
+                      OH, H2S, SO2, CS2, OCS, CN, HCN, NH3, C2H4,
+                      "NO", HO2, N2O, H2O2, O3, NO2, NO3, HNO2, HNO3,
+                      H2SO4, HCl, Cl, Cl2, HOCl, C2H6, CH3OH, CH3CHO,
+                      C3H6, CH3CN]
     tropopause-altitude: 268.75e5
     condensation-rate: {A: 1.0e-5, rhc: 0.01, rh0: 0.015}
 

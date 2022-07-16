@@ -71,7 +71,7 @@ def Ceres_rain():
     params['eddy'] = 1e6
     params['ztop'] = 2200e5
     params['nz'] = 200
-    params['zero_out'] = ['NH3']
+    params['zero_out'] = []
     params['rainfall_rate'] = 1
 
     params['atol'] = 1e-27
